@@ -12,9 +12,9 @@ function findKthSmallestAndLargest(arr, k) {
 //   arr.sort();
 
 
-    //Custom sorting 
+    //bubble sorting
 
-    // using bubble sort
+    
     for (let i = 0; i < arr.length; i++) {
         for (let j = i + 1; j < arr.length; j++) {
           if (arr[i] > arr[j]) {
@@ -25,7 +25,7 @@ function findKthSmallestAndLargest(arr, k) {
         }
       }
 
-    //End of custom sorting
+    //End of bubble sorting 
 console.log(arr);
   let smallindex = largestindex = 0;
 
