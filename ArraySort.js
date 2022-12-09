@@ -14,6 +14,29 @@ output [0,1,2,2]
 /*
 Algorithm
 
->>By using bubble sort 
+>>By using bubble sort  approach
+
+    
 
 */
+
+function bubbleSort(arr)
+{
+   for(let i=0;i<arr.length;i++)
+   {
+    for(let j=i+1;j<arr.length;j++)
+    {
+        let temp;
+          if(arr[i]>arr[j])
+          {
+            temp=arr[i]
+            arr[i]=arr[j];
+            arr[j]=temp;   
+          }
+    }
+   }
+
+   return arr;
+}
+
+console.log(bubbleSort([2,0,1,2]));
