@@ -14,8 +14,6 @@ output [0,1,2,2]
 /*
 Algorithm
 
->>One approach is using sort method.(which I am not gonna try).
-
 >>By using bubble sort 
 
 */
