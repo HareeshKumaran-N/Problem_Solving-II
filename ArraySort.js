@@ -14,8 +14,8 @@ output [0,1,2,2]
 /*
 Algorithm
 
->>By using bubble sort  approach
-
+>>By using bubble sort approach
+  
     
 
 */
