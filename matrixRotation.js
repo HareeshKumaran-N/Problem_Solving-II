@@ -8,7 +8,7 @@
 */
 
 function Rotate(arr) {
-  // console.log(arr); actual array
+
 
   //transposing
 
@@ -22,11 +22,11 @@ function Rotate(arr) {
     }
   }
 
-  // console.log(arr);
+
 
   //swapping the elements
   for (let i = 0; i < arr.length; i++) {
-    for (let j = 0; j < arr[i].length / 2 /*column value*/; j++) {
+    for (let j = 0; j < arr[i].length / 2 ; j++) {
       let temp = arr[i][j];
       arr[i][j] = arr[i][arr[i].length - j - 1];
       arr[i][arr[i].length - j - 1] = temp;
@@ -45,3 +45,5 @@ console.log(
     [13, 14, 15, 16],
   ])
 );
+
+
